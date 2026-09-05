@@ -1,1 +1,80 @@
 /* Add your styles here. */
+
+p {
+    color: black;
+}
+
+h2 {
+    color: Red;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+h3 {
+    color: black;
+}
+
+#top {
+    color: black;
+}
+
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.test {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+.test li {
+    float: left;
+}
+.test li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.test li a:hover {
+    background-color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+.bodies {
+    background-color: lightsteelblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.bullets {
+    background-color: lightgoldenrodyellow;
+    list-style-type: disc;
+    padding: 5px;
+    border-radius: 5px;
+
+}

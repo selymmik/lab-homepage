@@ -1,30 +1,72 @@
+<!-- doctype line is a declaration, evertything else is considerd an element -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="description" content="This webpage highlights my favorite Urban Planning Book">
   <title>My Favorite Urban Planning Book</title>
   <link rel="stylesheet" href="style.css">
+   <ul class="test">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index2.html">Favorite Quotes</a></li>
+      <li><a href="index3.html">Where to Buy the Book</a></li>
+   </ul>
 </head>
 <body>
-  <!-- Build your page here. -->
-   <h1>The Death and Life of Great American Cities</h1>
-   <h2>by Jane Jacobs</h2>
-   <img src="DeathAndLife.jpg" alt="The Book Cover of The Death and Life of Great American Cities" width="300" height="400">
+    <h1>The <span style="color:red; font-style: italic;">Death</span> and <span style="color:red; font-style: italic;">Life</span> of Great American Cities</h1>
+    <h2>by Jane Jacobs</h2>
+    <img src="DeathAndLife.jpg" alt="The Book Cover of The Death and Life of Great American Cities" width="300" height="400">
+    <h4>Useful Links & Webpage Navigation</h4>
+      <table>
+        <tr>  
+          <th>Link</th>
+          <th>Description</th>
+          <th>Last Updated</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/rtealwitter/introcs2026fall">Course Webpage</a></td>
+          <td>Official course webpage with syllabus and resources</td>
+          <td>2026-09-04 </td>
+        </tr>
+        <tr>
+          <td><a href="https://www.rtealwitter.com"> Professor Witter's Personal Website</a></td>
+          <td>Professor Witter's personal webpage with research and publications</td>
+          <td>2026-09-04 </td>
+        </tr>
+        <tr>
+          <td><a href="index2.html">My Favorite quotes from the book.</a></td>
+          <td>Personal quotes and reflections on the book</td>
+          <td>2026-09-04 </td>
+        </tr>
+        <tr>
+          <td><a href="index3.html">Find where the book is available.</a></td>
+          <td>Information about where to purchase or access the book</td>
+          <td>2026-09-04 </td>
+        </tr>
+      </table>
 
-      <p>This book explores the dynamics of urban life and the impact of city planning on community vitality. 
-        Jane Jacobs thoughtfully dissects how car-dependent urban design can undermine the social fabric of communities. 
-        Her work helped push back against the Robert Moses Paradigm of Urban Planning, recentering our focus on the needs of people and communities. 
-        Jacobs' offers a scathing crituqe of the city planners of her time, critizing their approach to urban development as akin to the long-abandoned practice of bloodletting in the medical profession. 
-       <a href="https://en.wikipedia.org/wiki/Jane_Jacobs">Learn more about Jane Jacobs.</a> </p> 
-    
-    <h3>Jacobs' four observations about what makes a great city</h3>
+  <div class="bodies">
+        <p>This book explores the dynamics of urban life and the impact of city planning on community vitality. 
+          Jane Jacobs thoughtfully dissects how car-dependent urban design can undermine the social fabric of communities. 
+          Her work helped push back against the Robert Moses Paradigm of Urban Planning, recentering our focus on the needs of people and communities. 
+          Jacobs' offers a scathing crituqe of the city planners of her time, critizing their approach to urban development as akin to the long-abandoned practice of bloodletting in the medical profession. 
+  </div>
 
-    <ul>
-      <li>Mixture of primary land uses</li>
-      <li>Short blocks and streets</li>
-      <li>High building density</li>
-      <li>Mixture of old and new buildings</li>
-    </ul>
+  <div class="bullets">
+      <h3>Jacobs' four observations about what makes a great city</h3>
+      <ul>
+        <li>Mixture of primary land uses</li>
+        <li>Short blocks and streets</li>
+        <li>High building density</li>
+        <li>Mixture of old and new buildings</li>
+      </ul>
+</div>
 
-  </body>
+<div class="bodies">
+      <h3>About Jane Jacobs</h3>
+        <p>Jane Jacobs (1916–2006) was an American-born Canadian writer, activist, and urban theorist who revolutionized how people understand and design cities.</p>
+        <p><a href="https://en.wikipedia.org/wiki/Jane_Jacobs"> <strong> <em> Learn more about Jane Jacobs.</em> </strong></a> </p> 
+</div>
+</body>
 </html>
+
