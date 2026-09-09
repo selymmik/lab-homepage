@@ -41,15 +41,17 @@ th, td {
     background-color: lightblue;
   }
 }
+/*
+===================== 
+all of the following are type selectors
 
-===================== all of the following are type selectors
-/* Descendant selectors */
+ Descendant selectors 
 main p {   
     color: black;
     font-size: 16px;
 }
 
-/* Child selectors */
+/* Child selectors 
 main > p {
     color: black;
     font-size: 16px;
@@ -62,11 +64,13 @@ h2 + p {
     font-size: 16px;
 }
 
-/* General sibling selectors */
+/* General sibling selectors 
 h2 ~ p {
     color: black;
     font-size: 16px;
 }
+
+
 =======================
 /* Class selectors */
 
