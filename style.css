@@ -42,7 +42,32 @@ th, td {
   }
 }
 
+===================== all of the following are type selectors
+/* Descendant selectors */
+main p {   
+    color: black;
+    font-size: 16px;
+}
 
+/* Child selectors */
+main > p {
+    color: black;
+    font-size: 16px;
+}
+
+/* Adjacent sibling selectors - sibilings directily next to eachother /*
+
+h2 + p {
+    color: black;
+    font-size: 16px;
+}
+
+/* General sibling selectors */
+h2 ~ p {
+    color: black;
+    font-size: 16px;
+}
+=======================
 /* Class selectors */
 
 .test {
