@@ -4,3 +4,4 @@ Starter files for the **Hello, Homepage** and **Dress It Up** labs in *CSCI 40: 
 
 - [Hello, Homepage](https://csci40.rtealwitter.com/topics/00_html/lab.html)
 - [Dress It Up](https://csci40.rtealwitter.com/topics/01_css/lab.html)
+- [Completed project]: https://selymmik.github.io/lab-homepage/index.html
